@@ -4,7 +4,7 @@ A modern, responsive portfolio website built with **React**, **TypeScript**, **T
 
 ## 🚀 Live Demo
 
-Visit the portfolio: [Your Portfolio URL] (Deploy to Vercel/Netlify and add the link here)
+Visit the portfolio: [my-portfolio.vercel.app](https://my-portfolio-pink-gamma-98.vercel.app/)
 
 ## ✨ Features
 
