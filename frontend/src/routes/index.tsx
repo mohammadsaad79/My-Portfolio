@@ -1,7 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, useRef, type FormEvent } from "react";
 import { Toaster, toast } from "sonner";
-import resumeFileUrl from "@/assets/Mohammad Saad Resume.pdf";
+
+const resumeFileUrl = "/Mohammad Saad Resume.pdf";
 
 export const Route = createFileRoute("/")({
   head: () => ({
