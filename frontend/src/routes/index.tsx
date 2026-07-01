@@ -1,7 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState, useRef, type FormEvent } from "react";
 import { Toaster, toast } from "sonner";
-import resumeAsset from "@/assets/resume.pdf.asset.json";
+import resumeFileUrl from "@/assets/Mohammad Saad Resume.pdf";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -309,8 +309,8 @@ function Hero() {
               Get in touch
             </a>
             <a
-              href={resumeAsset.url}
-              download="Mohammad_Saad_Resume.pdf"
+              href={resumeFileUrl}
+              download="Mohammad Saad Resume.pdf"
               className="inline-flex items-center gap-2 rounded-full px-4 py-3 font-mono text-xs uppercase tracking-[0.15em] text-muted-foreground transition hover:text-primary"
             >
               <DownloadIcon /> Resume.pdf
@@ -534,8 +534,8 @@ function Resume() {
               </div>
             </div>
             <a
-              href={resumeAsset.url}
-              download="Mohammad_Saad_Resume.pdf"
+              href={resumeFileUrl}
+              download="Mohammad Saad Resume.pdf"
               className="inline-flex items-center gap-3 rounded-full bg-primary px-8 py-4 font-medium text-primary-foreground shadow-glow transition hover:translate-y-[-2px]"
             >
               <DownloadIcon /> Download Resume
